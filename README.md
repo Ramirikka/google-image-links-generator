@@ -23,20 +23,21 @@ output_file_path = "output.txt"
 
 Run the script. It will read in the list of keywords from the input file, generate a set of Google Image Search links based on those keywords, and write the links to the output file.
 
-
+```python
 with open(input_file_path, "r") as input_file, open(output_file_path, "w") as output_file:
     for line in input_file:
         modified_line = prefix + line.strip().replace(" ", "+") + suffix
         output_file.write(modified_line + "\n")
-
+```
 
 
 Open the output file (e.g. output.txt) to view the generated links.
 
+```
 https://www.google.com/search?q=apple&tbm=isch
 https://www.google.com/search?q=banana&tbm=isch
 https://www.google.com/search?q=cherry&tbm=isch
-
+```
 
 Note: By default, the generated links include the Google Images search options &tbm=isch which stands for "Image Search". If you want to customize your search parameters further, you can modify the prefix and suffix variables in the Python script.
 
