@@ -43,6 +43,10 @@ https://www.google.com/search?q=cherry&tbm=isch
 
 Note: By default, the generated links include the Google Images search options &tbm=isch which stands for "Image Search". If you want to customize your search parameters further, you can modify the prefix and suffix variables in the Python script.
 
+## Results
+![Screenshot 2023-03-07 at 10 35 56 PM](https://user-images.githubusercontent.com/19676135/223546704-7ff5faf7-73d4-431b-ae31-517ef00af240.png)
+
+
 ## License
 
 This script is open source and available under the MIT license. Feel free to use, modify, and distribute it as needed. If you have any questions or feedback, please don't hesitate to reach out.
