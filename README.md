@@ -19,6 +19,7 @@ cherry
 ```python
 input_file_path = "input.txt"
 output_file_path = "output.txt"
+```
 
 Run the script. It will read in the list of keywords from the input file, generate a set of Google Image Search links based on those keywords, and write the links to the output file.
 
