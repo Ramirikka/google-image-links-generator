@@ -7,9 +7,9 @@ This is a Python script is a tool that converts a list of keywords into Google I
 1. Create an input file containing a list of keywords, with each keyword on a new line. For example:
 
 ```
-• apple
-• banana
-• cherry
+apple
+banana
+cherry
 ```
 
 2. Save the input file as a text file (e.g. `input.txt`) in the same directory as the Python script.
